@@ -1,0 +1,5 @@
+groups:
+  - name: Inactionable
+    labels:
+      - name: dependency-bug
+        description: This bug exists in a dependency.

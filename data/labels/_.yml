@@ -1,0 +1,83 @@
+inherit:
+  - https://raw.githubusercontent.com/darthshittious/.github/main/data/labels/colours.yml
+
+groups:
+  - name: Automation
+    colour: white
+
+  - name: Branch
+    colour: cyan
+
+  - name: Cynefin
+    labels:
+      - name: chaotic
+        description: There is no relationship between cause and effect.
+        colour: pink+S10
+      - name: complex
+        description: The relationship between cause and effect is unpredictable.
+        colour: pink+S5
+      - name: complicated
+        description: The relationship between cause and effect requires investigation and specific knowledge.
+        colour: pink
+      - name: clear
+        description: The relationship between cause and effect is clear.
+        colour: pink-S5
+
+  - name: Environment
+    colour: cyan
+
+  - name: Feedback
+    colour: blue
+    labels:
+      - name: discussion
+        description: This is a discussion.
+      - name: question
+        description: This is a question.
+      - name: rfc
+        description: This is a request for comment.
+
+  - name: Inactionable
+    colour: grey
+    labels:
+      - name: duplicate
+        description: This already exists.
+      - name: invalid
+        description: This doesn't seem right.
+      - name: lacking
+        description: This is lacking information.
+      - name: wontfix
+        description: This will not be worked on.
+
+  - name: Priority
+    labels:
+      - name: critical
+        description: This is release-blocking.
+        colour: red+S10
+      - name: high
+        description: This will be worked on in due time.
+        colour: red+S5
+      - name: medium
+        description: This will be worked on in free time.
+        colour: red
+      - name: low
+        description: This can be deferred.
+        colour: red-S5
+
+  - name: Status
+    colour: orange
+
+  - name: Type
+    colour: purple
+    labels:
+      - name: bug
+        description: This requests a patch or patches a bug.
+      - name: content
+        description: This requests changes to or changes content.
+      - name: enhancement
+        description: This requests or implements an enhancement.
+      - name: feature
+        description: This requests or implements a new feature.
+      - name: incompatible
+        description: This requests or implements an incompatible change.
+      - name: maintenance
+        description: This requests maintenance or maintains the repository.

@@ -1,0 +1,18 @@
+colours:
+  black: 0x000000
+  grey: 0x808080
+  white: 0xFFFFFF
+
+  # S=50, V=100
+  red: 0xFF8080      # P, H=0
+  orange: 0xFFBF80   # T, H=30
+  yellow: 0xFFFF80   # S, H=60
+  lime: 0xBFFF80     # T, H=90
+  green: 0x80FF80    # P, H=120
+  teal: 0x80FFBF     # T, H=150
+  cyan: 0x80FFFF     # S, H=180
+  malibu: 0x80BFFF   # T, H=210
+  blue: 0x8080FF     # P, H=240
+  purple: 0xBF80FF   # T, H=270
+  magenta: 0xFF80FF  # S, H=300
+  pink: 0xFF80BF     # T, H=330
