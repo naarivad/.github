@@ -1,5 +1,5 @@
 inherit:
-  - https://raw.githubusercontent.com/darthshittious/.github/main/data/labels/colours.yml
+  - https://raw.githubusercontent.com/naarivad/.github/main/data/labels/colours.yml
 
 groups:
   - name: Automation
